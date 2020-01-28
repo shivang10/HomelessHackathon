@@ -1,0 +1,44 @@
+<%- include("header") -%>
+<div class="volflex">
+    <div id="heading1">
+        <p>M</p>
+        <p>O</p>
+        <p>N</p>
+        <p>E</p>
+        <p>Y</p>
+    </div>
+    <div id="heading2">
+        <p>D</p>
+        <p>O</p>
+        <p>N</p>
+        <p>A</p>
+        <p>T</p>
+        <p>I</p>
+        <p>O</p>
+        <p>N</p>
+    </div>
+    <div id="formwid">
+        <form autocomplete="off" method="POST" action="/moneydonation">
+            <div class="volunteerreg">
+                <h1 class="heading">Member Details</h1>
+                <p>Please fill the form to fill up your donation details</p>
+                <hr>
+                <label for="">Full Name</label>
+                <input type="text" name="fullname" placeholder="Full Name" autocomplete="off" required>
+                <label for="">Email ID</label>
+                <input type="text" name="email" placeholder="Email Id" autocomplete="off" required>
+                <label for="">Paytm ID</label>
+                <input type="text" name="paymentid" placeholder="Paytm Order ID" required>
+                <label for="">Amount</label>
+                <input type="number" name="amount" placeholder="Amount" required>
+                <label for="">Phone Number</label>
+                <input type="number" name="phnum" placeholder="Phone Number" min="1000000000" max="9999999999" required>
+            </div>
+            <div>
+                <button type="submit">Donate</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<%- include("footer") -%>

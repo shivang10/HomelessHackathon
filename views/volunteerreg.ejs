@@ -1,0 +1,68 @@
+<%- include("header") -%>
+<div class="volflex">
+    <div id="heading1">
+        <p>V</p>
+        <p>O</p>
+        <p>L</p>
+        <p>U</p>
+        <p>N</p>
+        <p>T</p>
+        <p>E</p>
+        <p>E</p>
+        <p>R</p>
+    </div>
+    <div id="heading2">
+        <p>R</p>
+        <p>E</p>
+        <p>G</p>
+        <p>I</p>
+        <p>S</p>
+        <p>T</p>
+        <p>R</p>
+        <p>A</p>
+        <p>T</p>
+        <p>I</p>
+        <p>O</p>
+        <p>N</p>
+    </div>
+    <div id="benefits">
+        <h1>Benefits</h1>
+        <p>Working in any NGO would provide you lots of exposure to the real world. Watching the people with nothing
+            will motivate you to do more for yourself and society.<br>
+            Working with us would give you working underpressure, leadership qualities and also most importantly, a
+            satisfaction you get when you help other people.
+            Our World need more kind people, So join us and help the society.</p>
+        <img src="hand.png" alt="">
+    </div>
+    <div id="formwid">
+        <form autocomplete="off" method="POST" action="/volunteerreg">
+            <div class="volunteerreg">
+                <h1 class="heading">Member Details</h1>
+                <p>Please fill the form to register as volunteer.</p>
+                <hr>
+                <label>First Name</label>
+                <input type="text" name="fnamev" placeholder="First Name" autocomplete="off" required>
+                <label>Last Name</label>
+                <input type="text" name="lnamev" placeholder="Last Name" autocomplete="off" required>
+                <label>Email ID</label>
+                <input type="text" name="emailv" placeholder="Email Id" autocomplete="off" required>
+                <label>Phone Number</label>
+                <input type="number" name="phnumv" placeholder="Phone Number" min="1000000000" max="9999999999"
+                    required>
+                <label>Gender</label>
+                <select name="genderv">
+                    <option disabled>Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                    <option>Do not wish to tell</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<%- include("footer") -%>

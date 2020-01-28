@@ -1,0 +1,19 @@
+<%- include("header") -%>
+    <h1 style="margin-top: 20px;">What do you want to donate?</h1>
+    <div class="flex-container">
+        <div>
+            <h2>Money</h2>
+            <p>Give just little part of your wealth to these people in need. The amount donated is used to oragnize various activities for these people and also to provide them with certain daily things.</p>
+            <form method="GET" action="/moneydonation">
+                <button type="submit">Donate Now</button>
+            </form>
+        </div>
+        <div>
+            <h2>Food, Clothing or Medicines</h2>
+            <p>Have you got any left over food or food in excess or you have got clothes that are no longer required by you. Then donate here and we will then distribute them to these people in need.</p>
+            <form method="GET" action="/accessdonation">
+                <button type="submit">Donate Now</button>
+            </form>
+        </div>
+    </div>
+<%- include("footer") -%>

@@ -1,0 +1,162 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200118.151430.23888.0.001.json",
+    "dumpEventTime": "2020-01-18T15:14:30Z",
+    "dumpEventTimeStamp": "1579340670493",
+    "processId": 23888,
+    "cwd": "E:\\WebDev\\dduc",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "app.js"
+    ],
+    "nodejsVersion": "v12.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 1736453,
+        "nice": 0,
+        "sys": 1860625,
+        "idle": 24789046,
+        "irq": 430093
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 844062,
+        "nice": 0,
+        "sys": 645671,
+        "idle": 26896125,
+        "irq": 106734
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 3058562,
+        "nice": 0,
+        "sys": 1625828,
+        "idle": 23701468,
+        "irq": 38843
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 1461906,
+        "nice": 0,
+        "sys": 782890,
+        "idle": 26141062,
+        "irq": 8562
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 2090734,
+        "nice": 0,
+        "sys": 1177500,
+        "idle": 25117625,
+        "irq": 23468
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 1249156,
+        "nice": 0,
+        "sys": 590234,
+        "idle": 26546468,
+        "irq": 14734
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 2479250,
+        "nice": 0,
+        "sys": 1014078,
+        "idle": 24892531,
+        "irq": 23812
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 928593,
+        "nice": 0,
+        "sys": 385156,
+        "idle": 27072109,
+        "irq": 10953
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 1644078,
+        "nice": 0,
+        "sys": 1073765,
+        "idle": 25668000,
+        "irq": 23765
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 1731250,
+        "nice": 0,
+        "sys": 928906,
+        "idle": 25725687,
+        "irq": 9562
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 2142218,
+        "nice": 0,
+        "sys": 1186968,
+        "idle": 25056656,
+        "irq": 29187
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 1083343,
+        "nice": 0,
+        "sys": 885281,
+        "idle": 26417218,
+        "irq": 18171
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "WiFi",
+        "in

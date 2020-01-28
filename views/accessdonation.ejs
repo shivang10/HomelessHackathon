@@ -1,0 +1,47 @@
+<%- include("header") -%>
+<div class="volflex">
+    <div id="heading1">
+        <p>T</p>
+        <p>H</p>
+        <p>I</p>
+        <p>N</p>
+        <p>G</p>
+        <p>S</p>
+    </div>
+    <div id="heading2">
+        <p>D</p>
+        <p>O</p>
+        <p>N</p>
+        <p>A</p>
+        <p>T</p>
+        <p>I</p>
+        <p>O</p>
+        <p>N</p>
+    </div>
+    <div id="formwid">
+        <form autocomplete="off" method="POST" action="/accessdonation">
+            <div class="volunteerreg">
+                <h1 class="heading">Member Details</h1>
+                <p>Let's donate and help the people!</p>
+                <hr>
+                <label >Full Name</label>
+                <input type="text" name="fullname" placeholder="Full Name" autocomplete="off" required>
+                <label>Phone Number</label>
+                <input type="number" name="phnum" placeholder="Phone Number" min="1000000000" max="9999999999" required>
+                <label>Food</label>
+                <input name="food" type="text" placeholder="Food">
+                <label>Medicine</label>
+                <input name="medicine" type="text" placeholder="Medicines">
+                <label>Clothes</label>
+                <input name="clothes" type="text" placeholder="Clothes">
+                <label>Others</label>
+                <input name="others" type="text" placeholder="Any other thing">
+            </div>
+            <div>
+                <button type="submit">Donate</button>
+            </div>
+        </form>
+    </div>
+</div>
+    
+<%- include("footer") -%>
